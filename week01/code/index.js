@@ -1,9 +1,9 @@
-// Task 5 
-// TODO: NOT WORKING
-import { helloWorld } from 'hello-world-npm';
-
-console.log("This is task 5:");
-console.log(helloWorld());
+// Task 5:
+// 		Will NOT be marked
+//import { helloWorld } from 'hello-world-npm';
+//
+//console.log("This is task 5:");
+//console.log(helloWorld());
 
 
 // Task 2
@@ -34,5 +34,5 @@ console.log(myString); // Output
 	[x] Introduction to JavaScript
 	[x] Variables
 	[x] Control Flow
-	[ ] Functions
- */
+	[x] Functions
+*/
