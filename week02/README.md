@@ -18,6 +18,7 @@ No install needed
 ### Task 4
 
 | **Week** | content |
+| ------- | ---- |
 | 01 | Course Overview and Introduction to Node.js (Lecture)|
 | 02 | Managing Source Code with Version Control Systems (Lecture) |
 | 03 |  Write your own HTTP server (Lecture) |
