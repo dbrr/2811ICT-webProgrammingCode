@@ -18,6 +18,23 @@ No install needed
 ### Task 4
 
 | **Week** | content |
-| 01 | intro to JS |
-| 02 | Git |
-| 03 | idk |
+| 01 | Course Overview and Introduction to Node.js (Lecture)|
+| 02 | Managing Source Code with Version Control Systems (Lecture) |
+| 03 |  Write your own HTTP server (Lecture) |
+| 04 | Front-end JavaScript Frameworks (Lecture) |
+| 05 | 	Front-end JavaScript Frameworks (Lecture) |
+| 06 | Real-time server communication (Lecture) |
+| 07 | idk |
+| 08 | idk |
+| 09 | idk |
+| 10 | idk |
+
+
+	
+	NoSQL Storage and Retrieval (Lecture):
+	
+	NoSQL Queries (Lecture):
+	
+	Unit Testing Frameworks and Methodologies (Lecture):
+	
+	End-to-end Testing Frameworks and Methodologies (Lecture):
