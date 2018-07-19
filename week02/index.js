@@ -1,5 +1,5 @@
 
-
+// comment
 function addingFunction () {
 		x = 10;
 		y = 5;
