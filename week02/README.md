@@ -29,7 +29,6 @@ No install needed
 | 09 | idk |
 | 10 | idk |
 
-
 	
 	NoSQL Storage and Retrieval (Lecture):
 	
