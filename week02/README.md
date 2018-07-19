@@ -24,16 +24,8 @@ No install needed
 | 04 | Front-end JavaScript Frameworks (Lecture) |
 | 05 | 	Front-end JavaScript Frameworks (Lecture) |
 | 06 | Real-time server communication (Lecture) |
-| 07 | idk |
-| 08 | idk |
-| 09 | idk |
-| 10 | idk |
-
-	
-	NoSQL Storage and Retrieval (Lecture):
-	
-	NoSQL Queries (Lecture):
-	
-	Unit Testing Frameworks and Methodologies (Lecture):
-	
-	End-to-end Testing Frameworks and Methodologies (Lecture):
+| 06 | Real-time server communication (Lecture) |
+| 07 | NoSQL Storage and Retrieval (Lecture) |
+| 08 | NoSQL Queries (Lecture) |
+| 09 | Unit Testing Frameworks and Methodologies (Lecture) |
+| 10 | End-to-end Testing Frameworks and Methodologies (Lecture) |
