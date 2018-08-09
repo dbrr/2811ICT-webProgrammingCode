@@ -2,4 +2,6 @@
 *.docx
 *.pdf
 /02-oldmate/*
-/03
+
+**/node_modules
+
