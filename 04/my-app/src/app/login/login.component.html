@@ -2,11 +2,13 @@
 <h1>Welcome!</h1>
 <h3>Task 3/4</h3>
 
-<form action="/account" id='login'>
-		Username: <input type='text' value='' placeholder='Username' id='username'><br><br>
-		Password: <input type='password' value='' id='password'><br><br>
-		<input type='submit' value='Login' id='submitButton')>
+
+<form id='login' ngNoForm>
+		Username: <input type='text' value='' placeholder='Username' id='username' [(ngModel)]='loginUser'><br><br>
+		Password: <input type='password' value='' id='password' [(ngModel)]='loginPass'><br><br>
+		<button (click)="login()" value='Login' id='submitButton'></button>
+		<!-- <input type='submit' value='Login' id='submitButton'>  -->
 		<p id="error"></p>
 </form>
-	<!-- event.prevent(default) > </!-->
+	<!-- event.prevent(default)  -->
 </body>
