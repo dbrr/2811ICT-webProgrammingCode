@@ -16,7 +16,8 @@ export class LoginComponent implements OnInit {
 	if (typeof (Storage) !== "undefined") {
 		console.log('storage ready');
 
-		localStorage.setItem("lastname", "Doe");
+		localStorage.setItem("user", "asdf");
+		localStorage.setItem("pass", "1234");
 
 		console.log(localStorage.getItem("lastname"));
 	}
@@ -26,17 +27,26 @@ export class LoginComponent implements OnInit {
 	
 		
   }
-  	user = 'asdf';
-	pass = '123';
 	loginUser = "";
 	loginPass = "";
 
 	login() {
-	if ( this.loginUser == this.user && this.loginPass == this.pass ) {
+	//	if ( this.loginUser == localStorage.getItem("user") && this.loginPass == localStorage.getItem("pass") ) {
+	//		this.router.navigate(['/account']);
+	//	}
+	//	else{
+	//		alert("Error");
+	//	}
+
+		let user = {"user": this.loginUser, "id": 1, "birthDate": "20/4/2000", "age": "18" }
+		sessionStorage.setItem('user', JSON.stringify(user));
+
+	//	sessionStorage.setItem("id", "1");
+	//	sessionStorage.setItem("user", this.loginUser );
+	//	sessionStorage.setItem("birthDate", "20/4/2000");
+	//	sessionStorage.setItem("age", "18");
+
+		// if not needed for wk 5
 		this.router.navigate(['/account']);
-	}
-	else{
-		alert("Error");
-	}
 	}
 }
