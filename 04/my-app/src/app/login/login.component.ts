@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import {HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
@@ -8,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private router: Router) {  }
+  constructor(private router: Router, private http:HttpClient) {  }
 
   ngOnInit() {
   	console.log("test");
@@ -41,12 +42,27 @@ export class LoginComponent implements OnInit {
 		let user = {"user": this.loginUser, "id": 1, "birthDate": "20/4/2000", "age": "18" }
 		sessionStorage.setItem('user', JSON.stringify(user));
 
-	//	sessionStorage.setItem("id", "1");
-	//	sessionStorage.setItem("user", this.loginUser );
-	//	sessionStorage.setItem("birthDate", "20/4/2000");
-	//	sessionStorage.setItem("age", "18");
 
 		// if not needed for wk 5
-		this.router.navigate(['/account']);
+		this.http.post('login', {username:this.loginUser, password:this.loginPass}.subscribe(
+		res=>{
+			console.log(res);
+		})
+
+		//this.router.navigate(['/account']);
 	}
+
+	// Workshop help
+	//	logging component
+	//	import {HttpClient } from '@angular/common/http';
+	//
+	//	constructor(private router:Router, private http:HttpClient, ....)
+	//
+	//	// url is a variable
+	//	this.http.post( url, { username:thisusername, ....}.subscribe(
+	//	res=>{
+	//		
+	//	}
+	//	})
+	//
 }
